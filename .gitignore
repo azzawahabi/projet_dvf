@@ -1,0 +1,18 @@
+# Données brutes trop volumineuses pour GitHub
+data/ValeursFoncieres-*.txt
+
+# Fichiers générés par les notebooks
+data/*.parquet
+data/dvf_clean.csv
+data/etape*_predictions_test.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+catboost_info/
+
+# Divers
+.DS_Store
+.vscode/
